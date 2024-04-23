@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #data-parent-div {
+            margin: 0% 10% 0% 10%;
+        }
+
+        .childDiv {
+            padding: 1%;
+            border: 0px solid gray;
+            margin-top: 2%;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        hr {
+            border: 1px solid black;
+        }
+
+        hr+div {
+            text-align: center;
+        }
+
+        button {
+            padding: 1%;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-container">
+        <hr />
+        <div>
+            <button id="fetch-todo-btn">Fetch Todos</button>
+        </div>
+        <div id="data-parent-div"></div>
+    </div>
+</body>
+<script src="todo.js"></script>
+
+</html>
